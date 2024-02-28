@@ -13,7 +13,7 @@ import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 
-function page3() {
+function Page3() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -127,4 +127,4 @@ function page3() {
   )
 }
 
-export default page3
+export default Page3

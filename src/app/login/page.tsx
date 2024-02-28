@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 import { useEffect } from 'react';
 
 
-function page() {
+function Page() {
   const [data, setData] = useState({
     email: '',
     password: ''
@@ -115,6 +115,6 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
 
 

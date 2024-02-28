@@ -15,7 +15,7 @@ import { Separator } from "@/components/ui/separator"
 import Spline from '@splinetool/react-spline';
 
 
-function page4() {
+function Page4() {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
@@ -78,4 +78,4 @@ function page4() {
   );
 }
 
-export default page4;
+export default Page4;

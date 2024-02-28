@@ -8,7 +8,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-function page() {
+function Page() {
   const [data, setData] = useState({
     email: '',
     password: ''
@@ -73,6 +73,6 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
 
 
