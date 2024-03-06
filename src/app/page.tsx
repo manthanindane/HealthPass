@@ -4,13 +4,10 @@ import Heropage from "./elements/Heropage";
 import Page2 from "./elements/Page2";
 import Page3 from "./elements/Page3";
 import Page4 from "./elements/Page4";
-import Page5 from "./elements/page5";
 import { ModeToggle } from "./elements/Modetoggle";
 import { supabase } from "@/lib/supabase";
-import Avatar from "./elements/avatar";
 import { SiteFooter } from "./elements/SiteFooter";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import NavigationMenuDemo from "./elements/Navbar";
 import Menubar from "./elements/Menubar";
 import { useRouter } from "next/navigation";
@@ -53,8 +50,8 @@ export default function Home() {
 
       <div><Heropage /></div>
       <div><Page2 /></div>
-      <div><Page3 /></div>
-      <div><Page4 /></div>
+      <div><Page3/></div>
+      <div><Page4/></div>
       {/* <div><Page5/></div> */}
       <div><SiteFooter /></div>
     </div>
