@@ -1,9 +1,8 @@
-// import { DrawerDemo } from "./elements/Drawer";
 "use client"
 import Heropage from "./elements/Heropage";
 import Page2 from "./elements/Page2";
-import Page3 from "./elements/Page3";
-import Page4 from "./elements/Page4";
+// import Page3 from "./elements/Page3";
+// import Page4 from "./elements/Page4";
 import { ModeToggle } from "./elements/Modetoggle";
 import { supabase } from "@/lib/supabase";
 import { SiteFooter } from "./elements/SiteFooter";
@@ -43,15 +42,12 @@ export default function Home() {
           
         </div>
        
-
-
-
       </div>
 
       <div><Heropage /></div>
       <div><Page2 /></div>
-      <div><Page3/></div>
-      <div><Page4/></div>
+      {/* <div><Page3/></div> */}
+      {/* <div><Page4/></div> */}
       {/* <div><Page5/></div> */}
       <div><SiteFooter /></div>
     </div>
