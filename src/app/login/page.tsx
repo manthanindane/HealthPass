@@ -4,22 +4,18 @@ import { Input } from "@/components/ui/input";
 import { Activity } from "lucide-react";
 import { ModeToggle } from "../elements/Modetoggle";
 import { supabase } from "@/lib/supabase";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { useEffect } from 'react';
 
-
-function page() {
+function Page() {
   const [data, setData] = useState({
     email: '',
     password: ''
   });
 
   const router = useRouter();
-
-
 
   const login = async () => {
     try {
@@ -35,9 +31,6 @@ function page() {
     } catch (error) {
       console.log(error)
     }
-
-
-
   }
 
   async function signInWithGithub() {
@@ -58,7 +51,6 @@ function page() {
     }
   }
 
-
   useEffect(() => {
     // Create an auth state listener that triggers on change 
     const authListener = supabase.auth.onAuthStateChange((event, session) => {
@@ -73,18 +65,13 @@ function page() {
     }; 
   }, [router]); 
 
-
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setData((prev: any) => ({
+    setData((prev) => ({
       ...prev,
       [name]: value
     }));
   }
-  // router.refresh();
-
-
-
 
   return (
     <>
@@ -115,6 +102,4 @@ function page() {
   );
 }
 
-export default page;
-
-
+export default Page;
