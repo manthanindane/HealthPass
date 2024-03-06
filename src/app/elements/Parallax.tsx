@@ -13,7 +13,7 @@ import pic9 from '/public/pic9.jpg';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-function Page3() {
+function Parallax() {
   const container = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -124,4 +124,4 @@ function Page3() {
   );
 }
 
-export default Page3;
+export default Parallax;
