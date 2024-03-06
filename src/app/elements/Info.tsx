@@ -14,7 +14,7 @@ import { motion, useScroll } from 'framer-motion';
 import Spline from '@splinetool/react-spline';
 
 
-function Page4() {
+function Info() {
 const element = useRef(null);
 const { scrollYProgress } = useScroll({
   target: element,
@@ -79,4 +79,4 @@ const { scrollYProgress } = useScroll({
   );
 }
 
-export default Page4;
+export default Info;

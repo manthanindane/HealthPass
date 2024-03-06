@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import NavigationMenuDemo from "./elements/Navbar";
 import Menubar from "./elements/Menubar";
 import { useRouter } from "next/navigation";
-import Page4 from "./elements/Page4";
 import Parallax from "./elements/Parallax";
+import Info from "./elements/Info";
 
 export default function Home() {
   const router = useRouter();
@@ -46,7 +46,7 @@ export default function Home() {
 
       <div><Heropage /></div>
       <div><Parallax/></div>
-      <div><Page4/></div>
+      <div><Info/></div>
       <div><SiteFooter /></div>
     </div>
   );
