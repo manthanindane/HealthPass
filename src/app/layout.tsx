@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
+import {Manrope} from "next/font/google"
+
 
 // const inter = Inter({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "HealthPass Inc",
@@ -24,7 +27,7 @@ export default function RootLayout({
         
       <head>
             <link rel="icon" href="favicon.ico" /> 
-            <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"/>
  
         </head>
         <body>

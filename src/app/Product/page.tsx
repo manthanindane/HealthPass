@@ -25,7 +25,10 @@ function page() {
             <div className="flex gap-4">
                 <Input placeholder="Email" className=""></Input>
                 <Button>Sign Up</Button>
+
+
             </div>
+
     </div>
   )
 }

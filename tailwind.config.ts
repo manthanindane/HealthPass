@@ -11,7 +11,7 @@ const config = {
   prefix: "",
   theme: {
     fontFamily: {
-      'sans': ['Poppins', 'sans-serif'],
+      'sans': ['manrope', 'sans-serif'],
     },
     container: {
       center: true,

@@ -6,7 +6,7 @@ function About1() {
     return (
         <div className="relative h-screen flex flex-col items-center justify-center gap-12 text-center">
             <div className="absolute inset-0 z-1">
-            {/* <Spline scene="https://prod.spline.design/mbjz9bAE72LLBbVB/scene.splinecode" /> */}
+            <Spline scene="https://prod.spline.design/mbjz9bAE72LLBbVB/scene.splinecode" />
 
             </div>
             <div className="z-10 flex flex-col gap-10">

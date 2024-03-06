@@ -14,7 +14,8 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 
 function Page3() {
-  const container = useRef(null);
+const container = useRef(null);
+
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ['start start', 'end end']

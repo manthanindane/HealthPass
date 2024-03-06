@@ -7,7 +7,7 @@ function Heropage() {
   return (
     <div className='flex flex-col-reverse md:flex-row w-full h-screen '>
         <div className='flex flex-col justify-center md:w-1/2 md:px-16'>
-        <h1 className=' text-3xl md:text-7xl ml-5 font-sans font-bold mb-6'>A Platform for all your medical needs</h1>
+        <h1 className=' text-3xl md:text-8xl ml-5 font-sans font-extrabold mb-6'>A Platform for all your medical needs.</h1>
         <p className='text-sm md:text-xl ml-5 mb-6'>Store and access your medical records securely in one place.</p>
       </div>
 

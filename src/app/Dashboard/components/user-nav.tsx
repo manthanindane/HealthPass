@@ -1,49 +1,22 @@
-"use client"
-import React from 'react'
-import { Button } from "@/components/ui/button"
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import {
-    Menubar,
-    MenubarContent,
-    MenubarItem,
-    MenubarMenu,
-    MenubarSeparator,
-    MenubarTrigger,
-  } from "@/components/ui/menubar"
-  import {
     Avatar,
     AvatarFallback,
     AvatarImage,
   } from "@/components/ui/avatar"
-import { supabase } from '@/lib/supabase'
-import { useRouter } from "next/navigation";
+  import { Button } from "@/components/ui/button"
+  import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuGroup,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuShortcut,
+    DropdownMenuTrigger,
+  } from "@/components/ui/dropdown-menu"
   
-function Menubar1() {
-const router = useRouter();
-
-
-    async function signOut() {
-        const { error } = await supabase.auth.signOut()
-        if (!error) {
-          router.push('/login'); // Redirect to the login page
-      }
-      }
-     
-      
-
-
-  return (
-    <div>
-
+  export function UserNav() {
+    return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="ghost" className="relative h-8 w-8 rounded-full">
@@ -85,10 +58,5 @@ const router = useRouter();
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
-    
-
-    </div>
-  )
-}
-
-export default Menubar1
+    )
+  }

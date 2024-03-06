@@ -56,7 +56,7 @@ const handleClick = () => {
       <div><Page2/></div>
       <div><Page3/></div>
       <div><Page4/></div>
-      <div><Page5/></div>
+      {/* <div><Page5/></div> */}
       <div><SiteFooter/></div>
       </div>
   );

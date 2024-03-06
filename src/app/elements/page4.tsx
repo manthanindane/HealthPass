@@ -11,16 +11,17 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { motion, useScroll } from 'framer-motion';
-import { Separator } from "@/components/ui/separator"
 import Spline from '@splinetool/react-spline';
 
 
 function Page4() {
-  const element = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: element,
-    offset: ["start 0.8", "start 0.25"],
-  });
+const element = useRef(null);
+const { scrollYProgress } = useScroll({
+  target: element,
+  offset: ["start 0.8", "start 0.25"],
+});
+
+ 
   const cardData = [
     {
       icon: <HeartPulse />,
