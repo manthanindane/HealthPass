@@ -27,6 +27,7 @@ export default function RootLayout({
         
       <head>
             <link rel="icon" href="favicon.ico" /> 
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"/>
  
         </head>

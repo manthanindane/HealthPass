@@ -25,7 +25,7 @@ function About2() {
                         </h4>
                         <p
                             className="block font-sans text-base font-medium leading-relaxed bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400">
-                            {/* Co-founder and CEO */}
+                            Co-founder and CEO
                         </p>
                        <div className='flex justify-center mt-4 gap-4'>
                     
