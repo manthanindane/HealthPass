@@ -10,9 +10,6 @@ const config = {
 	],
   prefix: "",
   theme: {
-    fontFamily: {
-      'sans': ['manrope', 'sans-serif'],
-    },
     container: {
       center: true,
       padding: "2rem",

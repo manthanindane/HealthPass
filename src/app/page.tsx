@@ -45,6 +45,7 @@ export default function Home() {
       </div>
 
       <div><Heropage /></div>
+      <div><Page2/></div>
       <div><Parallax/></div>
       <div><Info/></div>
       <div><SiteFooter /></div>
